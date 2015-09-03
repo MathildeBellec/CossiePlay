@@ -1,0 +1,109 @@
+body {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    background-color: #e2edff;
+    line-height: 125%;
+    padding: 15px;
+}
+
+h1 {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: x-large;
+}
+
+h2 {
+    color: blue;
+    font-size: medium;
+    font-weight: normal;
+}
+
+h3 {
+    color: blue;
+    font-size: medium;
+    font-weight: normal;
+}
+
+h4 {
+    color: blue;
+    font-size: medium;
+    font-weight: normal;
+}
+
+li {
+    font-size: small;
+}
+
+p {
+    font-size: small;
+    color: navy;
+}
+
+.nav {
+    margin-top: 20px;
+    height: 40px;
+    background: #a7e0ee;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+}
+
+.nav ul li a:hover {
+    color: white;
+}
+
+#header {
+
+}
+
+#footer {
+
+}
+
+table
+{
+    border-collapse: collapse;
+}
+td, th
+{
+    border: 1px solid black;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: navy;
+}
+
+a:active {
+    color: aqua;
+    background-color: navy;
+}
+
+.highlight {
+
+}
