@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, Verdana, Arial, sans-serif;
-    color: #000000
+    color: #000000;
     background-color: #FFFFFF;
     line-height: 125%;
     padding: 15px;
@@ -9,7 +9,9 @@ body {
 h1 {
     font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-size: large;
+    text-align: center;
 }
+
 
 h2 {
     color: #800517;
@@ -26,6 +28,9 @@ h3 {
 }
 
 h4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     color: blue;
     font-size: medium;
     font-weight: normal;
@@ -38,7 +43,18 @@ h4 {
     padding-bottom: 8px;
     text-align: center;
     border-radius: 15px;
-    text
+}
+
+h4 a{
+    font-weight: bold;
+    color: #000000;
+}
+
+h5{    
+    margin-left: 10px;
+    font-size: larger;
+    position: relative;
+    top: 50%;
 }
 
 li:not(#footer ul li) {
@@ -46,7 +62,7 @@ li:not(#footer ul li) {
     list-style-type: circle;
 }
 
-a {
+li a {
     font-weight: bold;
     color: #000000;
 }
@@ -55,8 +71,8 @@ a:link {
     color: #000000;
 }
 
-a:visited {
-    color: blue;
+#paragraph a {
+    color: #267374;
 }
 
 a:hover, a:active {
@@ -66,7 +82,7 @@ a:hover, a:active {
 
 .highlight {
     letter-spacing: 2px;
-    color: blue;
+    color: #055580;
     text-decoration: wavy;
     font-weight: bold;
 }
@@ -85,6 +101,7 @@ a:hover, a:active {
 #nav ul li {
     float: left;
     color: #FFFFFF;
+    width: 25%;
 }
 
 #nav a:link, a:visited {
@@ -130,8 +147,14 @@ a:hover, a:active {
 #footer ul li {
     float: left;
     color: #FFFFFF;
-    list-style-type: none:
+    list-style-type: none;
+    width: 33.33%;
 }
+
+#footer ul li h2 a{
+    color: #800517;
+}
+
 
 img {
     display: block;
