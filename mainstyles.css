@@ -20,7 +20,7 @@ h2 {
 
 h3 {
     color: dimgray;
-    font-size: medium;
+    font-size: 14px;
     font-weight: normal;
     font-style: italic;
 }
@@ -29,10 +29,21 @@ h4 {
     color: blue;
     font-size: medium;
     font-weight: normal;
+    background-color: #800517;
+    width: 90px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-radius: 15px;
+    text
 }
 
-li {
+li:not(#footer ul li) {
     font-size: small;
+    list-style-type: circle;
 }
 
 a {
@@ -41,11 +52,11 @@ a {
 }
 
 a:link {
-    color: black;
+    color: #000000;
 }
 
 a:visited {
-    color: dimgray;
+    color: blue;
 }
 
 a:hover, a:active {
@@ -54,13 +65,21 @@ a:hover, a:active {
 }
 
 .highlight {
+    letter-spacing: 2px;
+    color: blue;
+    text-decoration: wavy;
+    font-weight: bold;
+}
 
+#nav {
+    width:100%;
 }
 
 #nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: auto;
 }
 
 #nav ul li {
@@ -70,7 +89,7 @@ a:hover, a:active {
 
 #nav a:link, a:visited {
     display: block;
-    max-width: 300px;
+    width: 100%;
     font-weight: bold;
     color: #FFFFFF;
     background-color: #000000;
@@ -85,22 +104,53 @@ a:hover, a:active {
 }
 
 #header {
-    width: auto;
-}
-
-#header img {
-
+    width: 100%;
+    text-align:center;
 }
 
 #footer {
+    background-color:black;
+    width: 100%;
+    height: 120px;
 
 }
 
-table
-{
+#footer ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 10px;
+     padding-bottom: 8px;
+     vertical-align: center;
+ }
+
+#footer ul li {
+    float: left;
+    color: #FFFFFF;
+    list-style-type: none:
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+table {
     border-collapse: collapse;
 }
-td, th
-{
-    border: 1px solid black;
+
+td, th {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+    vertical-align: middle;
 }
