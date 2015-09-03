@@ -1,25 +1,28 @@
 body {
     font-family: Helvetica, Verdana, Arial, sans-serif;
-    background-color: #e2edff;
+    color: #000000
+    background-color: #FFFFFF;
     line-height: 125%;
     padding: 15px;
 }
 
 h1 {
     font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
-    font-size: x-large;
+    font-size: large;
 }
 
 h2 {
-    color: blue;
-    font-size: medium;
-    font-weight: normal;
+    color: #800517;
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 3px;
 }
 
 h3 {
-    color: blue;
+    color: dimgray;
     font-size: medium;
     font-weight: normal;
+    font-style: italic;
 }
 
 h4 {
@@ -32,39 +35,60 @@ li {
     font-size: small;
 }
 
-p {
-    font-size: small;
-    color: navy;
+a {
+    font-weight: bold;
+    color: #000000;
 }
 
-.nav {
-    margin-top: 20px;
-    height: 40px;
-    background: #a7e0ee;
+a:link {
+    color: black;
 }
 
-.nav ul {
+a:visited {
+    color: dimgray;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: #800517;
+}
+
+.highlight {
+
+}
+
+#nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav ul li {
-    list-style: none;
-}
-
-.nav ul li a {
-    text-decoration: none;
+#nav ul li {
     float: left;
-    display: block;
-    padding: 10px 20px;
-    color: black;
+    color: #FFFFFF;
 }
 
-.nav ul li a:hover {
-    color: white;
+#nav a:link, a:visited {
+    display: block;
+    max-width: 300px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav a:hover, a:active {
+    background-color: #800517;
 }
 
 #header {
+    width: auto;
+}
+
+#header img {
 
 }
 
@@ -79,31 +103,4 @@ table
 td, th
 {
     border: 1px solid black;
-}
-
-a {
-    font-weight: bold;
-}
-
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: gray;
-}
-
-a:hover {
-    text-decoration: none;
-    color: white;
-    background-color: navy;
-}
-
-a:active {
-    color: aqua;
-    background-color: navy;
-}
-
-.highlight {
-
 }
